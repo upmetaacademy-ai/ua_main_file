@@ -1,0 +1,18 @@
+.brochure-button {
+  display: inline-block;
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #ff6f00, #ff9800); /*Orange gradient
+  /* background: linear-gradient(135deg, #000000, #ff6f00); */
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.brochure-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}

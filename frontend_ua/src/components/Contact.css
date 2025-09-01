@@ -1,0 +1,178 @@
+/* Enquiry Section */
+
+.enquiry_section {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  /* background: linear-gradient(135deg, #ff6f00, #ff9800); */
+   background: linear-gradient(135deg, #e94057, #ff9800);
+  display: flex;
+  justify-content: center;
+}
+.enquiry_section .select_option{
+  font-size: 11px;
+}
+.enquiry_container {
+  display: flex;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+/* Enquiry Form */
+.enquiry_form {
+  flex: 1 1 55%; /* takes more space */
+  background: #0c4492;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.enquiry_form h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  color: white;
+  text-align: center;
+}
+
+.enquiry_form p {
+  font-size: 1rem;
+  color: whitesmoke;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.enquiry_form form {
+  display: flex;
+  flex-direction: column;
+  gap: 5.5px;
+}
+
+.enquiry_form input,
+.enquiry_form select,
+.enquiry_form textarea {
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.enquiry_form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.enquiry_form button {
+  background: rgb(210, 48, 102);
+  color:pink;
+  font-weight: 600;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.enquiry_form button:hover {
+  background: darkblue;
+  color: lightpink;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .enquiry_container {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .enquiry_container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .enquiry_form, 
+  .enquiry_info {
+    width: 100%;
+    max-width: 550px;
+  }
+
+  .enquiry_form h1, 
+  .enquiry_info h2 {
+    text-align: center;
+  }
+
+  .enquiry_form p,
+  .enquiry_info p {
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .enquiry_contact_form {
+    padding: 25px;
+  }
+
+  .enquiry_contact_form h1 {
+    font-size: 1.6rem;
+  }
+
+  .enquiry_contact_form p {
+    font-size: 0.95rem;
+  }
+}
+
+
+/* Contact Info Section */
+.contact_info {
+  margin-top: 150px;
+  flex: 1 1 40%; /* takes less space */
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  color: #333;
+  line-height: 1.6;
+}
+
+.contact_info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ff6600; /* orange accent */
+}
+
+.contact_info p {
+  margin: 0 0;
+}
+
+.contact_info a {
+  color: #ff6600; /* orange link color */
+  text-decoration: none;
+  margin-left: 5px;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.contact_info a:hover {
+  color: #000; /* black on hover */
+  text-decoration: underline;
+}
+
+.contact_info strong {
+    font-size: 1.1rem;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .contact_info {
+      text-align: center;
+    }
+    .contact_info p {
+      font-size: 0.95rem;
+    }
+}
+
+

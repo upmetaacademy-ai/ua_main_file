@@ -1,3 +1,3 @@
-CREATE DATABASE Upmeta_Academy;
+CREATE DATABASE upmeta_academy;
 
 USE Upmeta_Academy;
